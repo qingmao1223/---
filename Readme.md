@@ -8,3 +8,5 @@ harris-sift算法文件夹：harris.m只有harris算法，sift.m只有sift算法
 
 评估指标文件夹：一共有四个指标，即互信息MI、均方差MSE、结构相似性SSIM、视觉信息保真度VIF。使用时分别运行MI.py、test_MSE.m、test_SSIM.m、test_VIF.m。image文件夹里是一组测试图像。
 请注意：1、MI.py为python代码，其余三个是matlab代码；2、使用时请更改输入图片的路径为自己图像的实际路径；
+
+Match_Harris_SIFT是一个python代码样例，可以用python直接调用harri-sift算法实现角点检测，这样就不用我们自己写harris-sift算法的代码了。
